@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(to right,aquamarine, black);
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 35%;
+    height: 100vh;
+}
+    
+h2,label,.b {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #050606;
+    -webkit-text-fill-color: orangered;
+}
+.box-1{   
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 35%;
+    background-image: url(Blazer-EV-foto-Chevrolet.webp);
+    border-radius: 10px ;
+    background-size: cover;
+    border: solid rgb(177, 177, 245);
+}
+button {
+    background-color: rgb(64, 98, 191);
+    border-radius: 10px;
+    font-size: medium;
+}
+input{
+    border-radius: 10px;
+    font-size: medium;
+    background-color: rgb(22, 21, 21);
+    color: azure;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    background-image:linear-gradient(to left, orange, black) ;
+}
